@@ -1,0 +1,76 @@
+#uploadmaindiv
+{
+	
+}
+#mobnav
+{
+	position: fixed;
+}
+#uploadpad
+{
+	padding: 5%;
+	padding-top: 100px;
+}
+
+progress 
+{
+	display: block;
+	width: 240px;
+	padding: 2px 5px;
+	margin: 2px 0;
+	border: 1px inset #446;
+	border-radius: 5px;
+}
+#uploadlistmain
+{
+	width:100%;
+	min-height: 100%;
+}
+#uploadlist
+{
+	min-height: 1000px;
+	width: 100%;
+	padding: 3%;
+}
+#prog
+{
+	padding:2%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+#browsebtn
+{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.padupdown
+{
+	padding: 2%;
+}
+#fileToUpload
+{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.download-btn
+{
+	background-image: url("../files/images/download-icon.png");
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	background-position: 90px 2px;
+	min-width: 130px;
+	min-height: 30px;
+	text-align: left;
+}
+#browsebtn-in
+{
+	cursor: pointer;
+}
+#browsefakebtn
+{
+	cursor: pointer;
+}

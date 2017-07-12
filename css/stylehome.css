@@ -1,0 +1,240 @@
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+body
+{
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway';
+  max-height: 100%;
+  
+}
+header
+{
+	top:0px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	max-height: 115px;
+}
+#headerrow
+{
+	min-width: 100%;
+	max-height: 65px;
+}
+#usertab
+{
+	border-left: 1px groove;
+	max-height: 65px;
+	max-width: 100%;
+}
+#usertabinner
+{
+	min-height: 65px;
+	padding-top: 20px;
+	max-height: 65px;
+	border: 2px blue;
+	width: 100%;
+	text-align: center;
+}
+#dropdown-content {
+    display: none;
+    position: relative;
+    text-align: center;
+    min-width: 100%;
+    background-color: 	#f1f1f1;/*light grey*/
+    -webkit-transition: all 0.5s;
+	transition: all 0.5s;
+
+}
+#usertab:hover{
+	background-color: #DCDCDC;
+	color: black;
+}
+
+#dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#dropdown-content a:hover{
+	background-color: #33b6ea;
+}
+#usertab:hover #dropdown-content {
+    display: inline;
+
+}
+#optiontab
+{
+	max-height: 48px;
+}
+.card
+{
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+	padding: 10px;
+	cursor: pointer;
+}
+#cardparent
+{
+	padding: 20px;
+}
+.padd
+{
+	padding: 10px;
+}
+#uploadtab
+{
+	float: right;
+	cursor: pointer;
+}
+.maxx-height
+{
+	max-height: 80%;
+	min-height: 80%;
+	height: 80%;
+	max-width: 100%;
+}
+#propertypanel
+{
+
+}
+#mainpanel
+{
+	padding-top: 115px;
+	min-height: 100%;
+	max-height: 100%;
+}
+#innermainpanel{
+	max-height: 100%;
+	
+}
+#fileslist
+{
+	padding: 10px;
+	overflow-y: scroll;
+	z-index: -11111;
+}
+#propertypanelmain
+{
+	max-height: 90%;
+}
+ul
+{
+	padding: 2px;
+}
+li
+{
+	padding: 12px;
+}
+#uploadpanel
+{
+	display: none;
+}
+#statuslog
+{
+	text-align: center;
+}
+#openuploadbtn,#closeuploadbtn
+{
+	cursor: pointer;
+}
+#searchbox
+{
+	background-image: url('../searchicon.png');
+    background-position: 2px 10px; 
+    background-repeat: no-repeat;
+    background-size: 26px;
+	width: 100%;
+	padding: 10px 30px;
+	border-radius: 3px;
+	border: none;
+	box-shadow: inset 0 2px 3px rgba( 0, 0, 0, 0.1 );
+}
+#searchboxdiv
+{
+	padding: 2px;
+	max-height: 48px;
+}#searchform
+{
+	padding: 0px;
+	border: none;
+}
+#proginner
+{
+	height: 8px;
+	border-radius: 10px;
+	z-index: -1;
+}
+#progbar
+{
+	background-color: #33b6ea;
+	width: 50%;
+	border-radius: 10px;
+}
+#inputfilename
+{
+	width: 100%;
+	padding: 10px 15px;
+	border-radius: 3px;
+	border: none;
+	box-shadow: 0 0 0 2px #ebebeb;
+	background-color: #f7f7f7;
+}
+#gobtn
+{
+	background-image: url("../go-btn1.png");
+	height: 60px;
+	width: 80px;
+	background-size: 80px 200px;
+	background-repeat: no-repeat;
+	border: 0px;
+	background-color: white;
+	cursor: pointer;
+	background-position: 0px -70px;
+}
+#gobtn:hover
+{
+	background-position: 0px 0px;
+}
+#gobtn:active
+{
+	background-position: 0px -140px;
+}
+#selectfilebtn
+{
+background-image: url("../uploadicon.png");
+background-position: 110px 9px; 
+background-repeat: no-repeat;
+background-size: 23px;
+font-size: 19px;
+border-radius: 3px;
+padding-right: 30px;
+background-color: #ebebeb;
+padding-top: 5px;
+border: none;
+height: 40px;
+width: 142px;
+cursor: pointer;
+}
+#realselectbtn
+{
+	z-index: -111;
+	opacity: 0;
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+#dropdownicon
+{
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+#loadingimg
+{
+	display: none;
+}

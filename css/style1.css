@@ -1,0 +1,140 @@
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+@font-face
+{
+	font-family: 'PoiretOne';
+	src: url('../fonts/PoiretOne-Regular');
+}
+body
+{
+  width: 100%;
+  height: 100%;
+  background-color: #bdbdbd;
+  font-family: 'Raleway';
+  
+}
+
+#maindiv
+{
+	width: 100%;
+	height: 100%;
+
+}
+#middiv
+{
+	
+	width: 100%;
+	height: 100%;
+	
+}
+#formdiv
+{
+	background-color: white;
+}
+#form1
+{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#formuprlayer
+{
+	padding: 12px;
+
+}
+
+
+.paddinput
+{
+	padding: 5%;
+}
+.darkgreen
+{
+	background-color: #4caf50;
+}
+#loginbtn
+{
+	background-color: #616161;
+	border: none;
+	color: white;
+	width: 100%;
+	padding: 15px 10px;
+}
+.logininp
+{
+	width: 100%;
+	padding: 15px 10px;
+	background: #f5f5f5;
+	border-radius: 3px;
+	border: none;
+	box-shadow: inset 0 2px 3px rgba( 0, 0, 0, 0.1 );
+	clear: both;
+	box-sizing: border-box;
+
+}
+#regid,#pas
+{
+	-webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+#regid:focus,#pas:focus
+{
+	background: #c5e1a5;
+	box-shadow: 0 0 0 3px #616161;
+    outline: none;
+
+}
+#errorlog
+{
+	text-align: center;
+	color: red;
+	
+}
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    
+    body
+    {
+		background-image: url("/files/images/CloudWall.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+    }
+    #signuptext
+    {
+    	color:white;
+    }
+    #middiv
+    {
+    	padding-left: 27%;
+		padding-right: 27%;
+    }
+    .logininp
+	{
+		font-size: 20px;
+	}
+	#maindiv
+	{
+		padding: 5%;
+		
+	}
+	#formdiv
+	{
+		background-color: rgba( 0, 0, 0, 0.4 );
+	}
+	.logininp
+	{
+		background-color: rgba( 1, 1, 1, 0);
+		box-shadow: 0 0 0 2px #FFF;
+	}
+	#regid:focus,#pas:focus
+	{
+		background-color: rgba( 255, 255, 255, 0.9 );
+	}
+	.darkgreen
+	{
+		background-color: rgba( 1, 1, 1, 0);
+	}
+}
